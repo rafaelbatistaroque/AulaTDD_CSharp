@@ -8,5 +8,9 @@ namespace Calculadora
 {
     public class Calcular
     {
+        //public int Somar(int n1, int n2)
+        //{
+        //    return 0;
+        //}
     }
 }
