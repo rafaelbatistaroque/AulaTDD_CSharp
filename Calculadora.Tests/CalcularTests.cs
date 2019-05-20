@@ -28,5 +28,13 @@ namespace Calculadora.Tests
 
             Assert.That(resultado, Is.EqualTo(5));
         }
+        [Test]
+        public void DeveSubtrairDoisNumeros()
+        {
+            var sut = new Calcular();
+            var resultado = sut.Subtrair(12, 2);
+
+            Assert.That(resultado, Is.EqualTo(10));
+        }
     }
 }
