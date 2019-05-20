@@ -20,5 +20,13 @@ namespace Calculadora.Tests
 
             Assert.That(resultado, Is.EqualTo(6));
         }
+        [Test]
+        public void DeveDividirDoisNumeros()
+        {
+            var sut = new Calcular();
+            var resultado = sut.Dividir(10, 2);
+
+            Assert.That(resultado, Is.EqualTo(5));
+        }
     }
 }
