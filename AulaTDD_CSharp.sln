@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Tests", "Calcul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_String", "TDD_String\TDD_String.csproj", "{780664A2-A623-4C3C-8AC0-B31CCEB692AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_String.Testes", "TDD_String.Testes\TDD_String.Testes.csproj", "{EACDC078-38EE-458E-90C9-BEFAC89057AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD_String.Tests", "TDD_String.Testes\TDD_String.Tests.csproj", "{EACDC078-38EE-458E-90C9-BEFAC89057AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

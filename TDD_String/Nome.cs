@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TDD_String
+﻿namespace TDD_String
 {
     public class Nome
     {
+        public string JuntarNomes(string nome, string sobrenome)
+        {
+            return nome + " " + sobrenome;
+        }
     }
 }
